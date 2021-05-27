@@ -29,4 +29,13 @@
         p {
             text-align: center;
         }
+        #img-div {
+            background-color: white;
+            padding: 15px;
+            margin: 0px 10px;
+            #image {
+                width: 100%;
+                height: auto;
+            }
+        }
     }

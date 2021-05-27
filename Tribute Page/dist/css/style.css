@@ -29,4 +29,15 @@ body {
 #main p {
   text-align: center;
 }
+
+#main #img-div {
+  background-color: white;
+  padding: 15px;
+  margin: 0px 10px;
+}
+
+#main #img-div #image {
+  width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
