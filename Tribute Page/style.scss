@@ -1,4 +1,10 @@
+/***VARIABLES********/
+
+$bacgroundColor: #dfe1f0;
+$dahboardColor: #f5f5fd;
+$font-color: #151320;
 html,
 body {
+    background-color: $bacgroundColor;
     font-family: "Poppins";
 }
