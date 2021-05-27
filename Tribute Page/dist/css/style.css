@@ -42,6 +42,16 @@ body {
   margin: 0px 10px;
 }
 
+@media screen and (max-width: 460px) {
+  #main #img-div {
+    padding: 1px;
+    margin: 0px 5px;
+  }
+  #main #img-div #img-caption {
+    font-size: 11px;
+  }
+}
+
 #main #img-div #image {
   width: 100%;
   display: block;
@@ -64,5 +74,9 @@ body {
 
 #main #tribute-info h3 {
   text-align: center;
+}
+
+#main #tribute-info a {
+  color: #477ca7;
 }
 /*# sourceMappingURL=style.css.map */

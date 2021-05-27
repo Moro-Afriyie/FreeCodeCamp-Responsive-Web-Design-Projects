@@ -37,7 +37,11 @@
             padding: 25px;
             margin: 0px 10px;
             @media screen and (max-width: 460px) {
-                // margin: 20px 0px;
+                padding: 1px;
+                margin: 0px 5px;
+                #img-caption {
+                    font-size: 11px;
+                }
             }
             #image {
                 width: 100%;
@@ -59,6 +63,9 @@
             }
             h3 {
                 text-align: center;
+            }
+            a {
+                color: #477ca7;
             }
         }
     }
