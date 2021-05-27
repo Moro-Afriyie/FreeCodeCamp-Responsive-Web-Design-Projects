@@ -13,7 +13,7 @@
         color: $font-color;
         background-color: rgba(225, 225, 225, 0.1);
         border-radius: 20px;
-        margin: 20px auto;
+        margin: 20px;
         position: relative;
         border-top: 1px solid rgba(225, 225, 225, 0.5);
         border-left: 1px solid rgba(225, 225, 225, 0.3);
@@ -31,10 +31,11 @@
         }
         #img-div {
             background-color: white;
-            padding: 15px;
+            padding: 25px;
             margin: 0px 10px;
             #image {
-                width: 100%;
+                max-width: 100%;
+                display: block;
                 height: auto;
             }
         }
