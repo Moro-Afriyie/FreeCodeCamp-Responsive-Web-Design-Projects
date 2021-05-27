@@ -34,9 +34,25 @@
             padding: 25px;
             margin: 0px 10px;
             #image {
-                max-width: 100%;
+                width: 100%;
                 display: block;
                 height: auto;
+            }
+        }
+        #tribute-info {
+            margin: 0px 10px;
+            padding: 10px;
+            .biography {
+                span {
+                    font-weight: bold;
+                }
+                p {
+                    text-align: left;
+                    width: 100%;
+                }
+            }
+            h3 {
+                text-align: center;
             }
         }
     }
