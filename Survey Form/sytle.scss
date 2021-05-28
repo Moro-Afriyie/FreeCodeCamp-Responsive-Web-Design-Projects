@@ -5,7 +5,10 @@
  $font-color: #151320;
  html,
  body {
-     background-color: $bacgroundColor;
+     //  background-color: $bacgroundColor;
+     background-image: url("./images/macBook.png");
+     background-size: cover;
+     background-position: center;
      font-family: "Poppins";
  }
  
