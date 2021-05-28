@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    --backgroundColor: white;
+}
+
 html {
     width: 100%;
     height: 100%;
