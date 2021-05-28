@@ -1,0 +1,9 @@
+/***VARIABLES********/
+html,
+body {
+  background-image: url("./images/macBook.png");
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins";
+}
+/*# sourceMappingURL=sytle.css.map */
