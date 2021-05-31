@@ -85,6 +85,10 @@
         outline: none;
     }
     
+    select {
+        height: 3rem;
+    }
+    
     .input-radio,
     .input-checkbox {
         display: inline-block;
