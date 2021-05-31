@@ -17,3 +17,17 @@ html {
     background-size: cover;
     font-family: "Poppins";
 }
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+title {
+    text-align: centers;
+}
