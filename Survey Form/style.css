@@ -38,3 +38,9 @@ html {
     font-weight: 200;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
+
+#survey-form {
+    background: var(--backgroundColor);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
