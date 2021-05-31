@@ -102,3 +102,11 @@ textarea {
     font-size: inherit;
     line-height: inherit;
 }
+
+.input-textarea {
+    min-height: 150px;
+    width: 97%;
+    padding: 0.625rem;
+    resize: vertical;
+    outline: none;
+}
