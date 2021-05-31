@@ -65,3 +65,40 @@ html {
     flex-direction: column;
     gap: 5px;
 }
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.form-control {
+    display: block;
+    height: 2.2rem;
+    padding: 0.375rem 0.75rem;
+    /* color: #495057; */
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    outline: none;
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
