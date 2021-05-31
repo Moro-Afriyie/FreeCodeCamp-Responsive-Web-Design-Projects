@@ -23,11 +23,18 @@ html {
     margin: 3.125rem auto 0 auto;
 }
 
-.header {
+#header {
     padding: 0 0.625rem;
     margin-bottom: 1.875rem;
 }
 
-title {
+#title {
     text-align: centers;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
 }
