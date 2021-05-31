@@ -1,168 +1,144 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --backgroundColor: rgba(255, 255, 255, 0.5);
-}
-
-html {
-    width: 100%;
-    height: 100%;
-    background: url('./images/faded\ stones.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: "Poppins";
-}
-
-.container {
-    width: 100%;
-    margin: 3.125rem auto 0 auto;
-}
-
-#header {
-    padding: 0 0.625rem;
-    margin-bottom: 1.875rem;
-}
-
-#title {
-    text-align: center;
-}
-
-#description {
-    max-width: 800px;
-    margin: 10px auto;
-    text-align: center;
-    font-style: italic;
-    font-weight: 200;
-    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
-}
-
-#survey-form {
-    background: var(--backgroundColor);
-    padding: 2.5rem;
-    border-radius: 0.3rem;
-    max-width: 700px;
-    margin: auto;
-    border-top: 1px solid rgba(225, 225, 225, 0.5);
-    border-left: 1px solid rgba(225, 225, 225, 0.3);
-    border-right: 1px solid rgba(225, 225, 225, 0.3);
-    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
-    backdrop-filter: blur(12px);
-    box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.survey-form__group {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-label {
-    display: flex;
-    align-items: center;
-    font-size: 1.125rem;
-}
-
-.form-control {
-    display: block;
-    height: 2.2rem;
-    padding: 0.375rem 0.75rem;
-    /* color: #495057; */
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    outline: none;
-}
-
-.input-radio,
-.input-checkbox {
-    display: inline-block;
-    margin-right: 0.625rem;
-    min-height: 1.25rem;
-    min-width: 1.25rem;
-}
-
-input,
-button,
-select,
-textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-.input-textarea {
-    min-height: 150px;
-    width: 97%;
-    padding: 0.625rem;
-    resize: vertical;
-    outline: none;
-}
-
-
-/* .submit-button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    color: inherit;
-    border-radius: 2px;
-    cursor: pointer;
-    box-shadow: 0px 1px 0px 0px #fff6af;
-    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-    background-color: #ffec64;
-    border-radius: 6px;
-    border: 1px solid #ffaa22;
-    display: inline-block;
-    color: #333333;
-    font-family: inherit;
-    /* font-size:15px; *
-    font-weight: bold;
-    /* padding:6px 24px; *
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #ffee66;
-} */
-
-.submit-button {
-    display: block;
-    width: 100%;
-    padding: 6px 24px;
-    color: inherit;
-    border-radius: 2px;
-    box-shadow: 0px 1px 0px 0px #91b8b3;
-    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-    background-color: #768d87;
-    border-radius: 6px;
-    border: 1px solid #566963;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 12px 24px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #2b665e;
-    outline: none;
-}
-
-.submit-button :hover {
-    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-    background-color: #6c7c7c;
-}
-
-.submit-button :active {
-    position: relative;
-    top: 1px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    :root {
+        --backgroundColor: rgba(255, 255, 255, 0.5);
+    }
+    
+    html {
+        width: 100%;
+        height: 100%;
+        background: url('./images/faded\ stones.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: "Poppins";
+    }
+    
+    .container {
+        width: 100%;
+        margin: 3.125rem auto 0 auto;
+    }
+    
+    #header {
+        padding: 0 0.625rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    #title {
+        text-align: center;
+    }
+    
+    #description {
+        max-width: 800px;
+        margin: 10px auto;
+        text-align: center;
+        font-style: italic;
+        font-weight: 200;
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    }
+    
+    #survey-form {
+        background: var(--backgroundColor);
+        padding: 2.5rem;
+        border-radius: 0.3rem;
+        max-width: 700px;
+        margin: auto;
+        border-top: 1px solid rgba(225, 225, 225, 0.5);
+        border-left: 1px solid rgba(225, 225, 225, 0.3);
+        border-right: 1px solid rgba(225, 225, 225, 0.3);
+        border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+        backdrop-filter: blur(12px);
+        box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .survey-form__group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    label {
+        display: flex;
+        align-items: center;
+        font-size: 1.125rem;
+    }
+    
+    .form-control {
+        display: block;
+        height: 2.2rem;
+        padding: 0.375rem 0.75rem;
+        /* color: #495057; */
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        outline: none;
+    }
+    
+    .input-radio,
+    .input-checkbox {
+        display: inline-block;
+        margin-right: 0.625rem;
+        min-height: 1.25rem;
+        min-width: 1.25rem;
+    }
+    
+    input,
+    button,
+    select,
+    textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    
+    .input-textarea {
+        min-height: 150px;
+        width: 97%;
+        padding: 0.625rem;
+        resize: vertical;
+        outline: none;
+    }
+    
+    .submit-button {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        color: inherit;
+        border-radius: 2px;
+        cursor: pointer;
+        box-shadow: 0px 1px 0px 0px #fff6af;
+        background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+        background-color: #ffec64;
+        border-radius: 6px;
+        border: 1px solid #ffaa22;
+        display: inline-block;
+        color: #333333;
+        font-family: inherit;
+        /* font-size:15px; */
+        font-weight: bold;
+        /* padding:6px 24px; */
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffee66;
+    }
+    
+    .submit-button:hover {
+        background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+        background-color: #ffab23;
+    }
+    
+    .submit-button:active {
+        position: relative;
+        top: 1px;
+    }
