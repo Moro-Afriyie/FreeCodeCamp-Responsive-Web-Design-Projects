@@ -59,3 +59,9 @@ html {
     flex-direction: column;
     gap: 10px;
 }
+
+#survey-form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
