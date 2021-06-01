@@ -149,4 +149,7 @@
         #survey-form {
             padding: 2.5rem 1rem;
         }
+        .input-textarea {
+            width: 90%;
+        }
     }
