@@ -144,3 +144,9 @@
         position: relative;
         top: 1px;
     }
+    
+    @media screen and (max-width: 400px) {
+        #survey-form {
+            padding: 2.5rem 1rem;
+        }
+    }
