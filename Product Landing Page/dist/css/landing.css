@@ -39,6 +39,10 @@ body {
           align-items: center;
 }
 
+#header #header-img {
+  width: 20rem;
+}
+
 #header #nav-bar {
   margin-left: auto;
 }
