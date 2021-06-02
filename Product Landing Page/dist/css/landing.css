@@ -1,0 +1,21 @@
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: auto !important;
+  width: auto !important;
+  min-width: auto !important;
+}
+
+.landing {
+  background-position: -185rem -217rem;
+}
+
+.landing .background-image {
+  position: absolute;
+  top: -220rem;
+  left: -145rem;
+  z-index: 0;
+}
+/*# sourceMappingURL=landing.css.map */
