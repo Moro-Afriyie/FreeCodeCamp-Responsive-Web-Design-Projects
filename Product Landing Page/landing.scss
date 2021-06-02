@@ -11,11 +11,12 @@ body {
 
 .landing {
     background-position: -185rem -217rem;
+    background-repeat: no-repeat;
     // background-size: contain;
-    // .background-image {
-    //     position: absolute;
-    //     top: -220rem;
-    //     left: -145rem;
-    //     z-index: 0;
-    // }
+    .background-image {
+        position: absolute;
+        top: -220rem;
+        left: -145rem;
+        z-index: 0;
+    }
 }
