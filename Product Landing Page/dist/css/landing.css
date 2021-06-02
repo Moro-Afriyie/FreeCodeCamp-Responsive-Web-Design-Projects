@@ -7,11 +7,6 @@
 html,
 body {
   scroll-behavior: smooth;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-  height: auto !important;
-  width: auto !important;
-  min-width: auto !important;
 }
 
 .landing {
