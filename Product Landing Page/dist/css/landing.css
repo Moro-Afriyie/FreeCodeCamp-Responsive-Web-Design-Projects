@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "poppins";
 }
 
 html,
@@ -37,8 +38,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 2px 5px 0 black;
-          box-shadow: 0 2px 5px 0 black;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+  padding: 0px 20px;
 }
 
 #header #header-img {
@@ -47,6 +49,22 @@ body {
 
 #header #nav-bar {
   margin-left: auto;
+}
+
+#header #nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  width: 35vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+#header #nav-bar ul a {
+  text-decoration: none;
+  color: #000000;
 }
 
 #hero {
