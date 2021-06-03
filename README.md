@@ -4,3 +4,4 @@ This repository contains the projects in the responsive web design course on Fre
 
 * Tribute page
 * Survey Form
+* Product Landing Page
