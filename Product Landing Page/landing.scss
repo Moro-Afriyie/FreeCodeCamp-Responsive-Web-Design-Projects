@@ -66,4 +66,8 @@ body {
     margin-top: 50px;
     background-size: contain;
     background-position: center;
+    #form {
+        display: flex;
+        flex-direction: column;
+    }
 }
