@@ -79,5 +79,7 @@ body {
   text-align: center;
   height: 200px;
   margin-top: 50px;
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=landing.css.map */
