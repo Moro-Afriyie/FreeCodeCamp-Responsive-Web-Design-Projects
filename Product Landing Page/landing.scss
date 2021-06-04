@@ -6,13 +6,7 @@
     
     html,
     body {
-        // overflow: auto !important;
         scroll-behavior: smooth;
-        // overflow-y: auto !important;
-        // overflow-x: hidden !important;
-        // height: auto !important;
-        // width: auto !important;
-        // min-width: auto !important;
     }
     
     .landing {
@@ -71,7 +65,6 @@
         h1 {
             margin-bottom: 20px;
             word-wrap: break-word;
-            // color: white;
             color: #f9c733;
             text-transform: capitalize;
             text-shadow: 2px 2px #0a0a0af2;
@@ -138,7 +131,7 @@
                     border-bottom: none;
                 }
             }
-            @media screen and(max-width: 330px) {
+            @media screen and(max-width: 450px) {
                 padding: 0px;
             }
             .card {
@@ -147,10 +140,8 @@
                 border-radius: 16px;
                 background: #f8f9fa;
                 box-shadow: 0 1px 2px 0 rgb(60, 64, 67 / 30%), 0 1px 3px 1px rgb(60, 64, 67 / 15%);
-                // height: 100%;
                 padding: 20px;
                 flex: 1;
-                // width: 88%;
                 @media screen and(max-width: 800px) {
                     box-shadow: none;
                     border-radius: 0px;
@@ -159,7 +150,7 @@
                     // border-bottom: 1px solid #5f6368;
                     padding-bottom: 50px;
                 }
-                @media screen and(max-width: 330px) {
+                @media screen and(max-width: 450px) {
                     padding: 0px 0px 50px 0px;
                 }
                 img {
@@ -169,11 +160,6 @@
                 .card-heading {
                     margin: 25px 0px;
                     text-align: center;
-                }
-            }
-            .card-premium {
-                .card-text {
-                    // line-height: 2.1rem;
                 }
             }
         }

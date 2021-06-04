@@ -182,7 +182,7 @@ body {
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 450px) {
   #features .features-cards {
     padding: 0px;
   }
@@ -217,7 +217,7 @@ body {
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 450px) {
   #features .features-cards .card {
     padding: 0px 0px 50px 0px;
   }
