@@ -234,4 +234,13 @@ body {
   margin: 25px 0px;
   text-align: center;
 }
+
+#how-it-works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=landing.css.map */
