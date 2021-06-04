@@ -99,9 +99,10 @@
                 top: 1px;
             }
             input[type='email'] {
-                max-width: 275px;
+                max-width: 300px;
                 width: 100%;
-                padding: 5px;
+                padding: 10px 5px;
+                margin-bottom: 1rem;
             }
         }
     }
