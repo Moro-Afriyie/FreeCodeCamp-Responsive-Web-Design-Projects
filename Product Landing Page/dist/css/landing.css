@@ -9,19 +9,6 @@ body {
   scroll-behavior: smooth;
 }
 
-.landing {
-  background-position: -185rem -217rem;
-  background-repeat: no-repeat;
-  background-color: #eee;
-}
-
-.landing .background-image {
-  position: absolute;
-  top: -220rem;
-  left: -145rem;
-  z-index: 0;
-}
-
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
