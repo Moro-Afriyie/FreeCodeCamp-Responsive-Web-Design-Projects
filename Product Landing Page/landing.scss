@@ -174,4 +174,7 @@
     #how-it-works {
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 500px) {
+            margin: 30px;
+        }
     }
