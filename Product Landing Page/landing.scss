@@ -107,7 +107,10 @@
     
     #features {
         margin: 30px;
-        box-shadow: 0 2px 1px -1px rgb(0, 0, 0 / 20%), 0 1px 1px 0 rgb(0, 0, 0 / 14%), 0 1px 3px 0 rgb(0, 0, 0 / 12%);
+        // box-shadow: 0 2px 1px -1px rgb(0, 0, 0 / 20%), 0 1px 1px 0 rgb(0, 0, 0 / 14%), 0 1px 3px 0 rgb(0, 0, 0 / 12%);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
         border-radius: 20px;
         background-color: #ffffff;
         padding: 60px 60px;
@@ -139,7 +142,10 @@
                 flex-direction: column;
                 border-radius: 16px;
                 background: #f8f9fa;
-                box-shadow: 0 1px 2px 0 rgb(60, 64, 67 / 30%), 0 1px 3px 1px rgb(60, 64, 67 / 15%);
+                // box-shadow: 0 1px 2px 0 rgb(60, 64, 67 / 30%), 0 1px 3px 1px rgb(60, 64, 67 / 15%);
+                box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+                -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+                -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
                 padding: 20px;
                 flex: 1;
                 @media screen and(max-width: 800px) {

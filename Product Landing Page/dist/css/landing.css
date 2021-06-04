@@ -141,8 +141,9 @@ body {
 
 #features {
   margin: 30px;
-  -webkit-box-shadow: 0 2px 1px -1px black, 0 1px 1px 0 black, 0 1px 3px 0 black;
-          box-shadow: 0 2px 1px -1px black, 0 1px 1px 0 black, 0 1px 3px 0 black;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
   border-radius: 20px;
   background-color: #ffffff;
   padding: 60px 60px;
@@ -198,8 +199,9 @@ body {
           flex-direction: column;
   border-radius: 16px;
   background: #f8f9fa;
-  -webkit-box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4004;
-          box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4004;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
   padding: 20px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
