@@ -81,13 +81,16 @@ body {
   margin-top: 50px;
   background-size: contain;
   background-position: center;
+  width: 100%;
 }
 
 #hero #form {
-  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #hero #form .btn {
