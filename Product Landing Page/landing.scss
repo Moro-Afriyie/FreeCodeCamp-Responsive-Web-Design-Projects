@@ -117,7 +117,10 @@
         box-shadow: 0 2px 1px -1px rgb(0, 0, 0 / 20%), 0 1px 1px 0 rgb(0, 0, 0 / 14%), 0 1px 3px 0 rgb(0, 0, 0 / 12%);
         border-radius: 20px;
         background-color: #ffffff;
-        padding: 60px 30px;
+        padding: 60px 60px;
+        @media screen and (max-width: 850px) {
+            padding: 60px 30px;
+        }
         h1 {
             font-size: 44px;
             line-height: 54px;
@@ -128,12 +131,15 @@
         .features-cards {
             display: flex;
             gap: 30px;
-            @media screen and(max-width: 755px) {
+            @media screen and(max-width: 800px) {
                 flex-direction: column;
                 padding: 10px 40px 10px 40px;
                 .card-assurance {
                     border-bottom: none;
                 }
+            }
+            @media screen and(max-width: 330px) {
+                padding: 0px;
             }
             .card {
                 display: flex;
@@ -145,13 +151,16 @@
                 padding: 20px;
                 flex: 1;
                 // width: 88%;
-                @media screen and(max-width: 755px) {
+                @media screen and(max-width: 800px) {
                     box-shadow: none;
                     border-radius: 0px;
                     background-color: #ffffff;
                     border-bottom: 2px solid #f8f9fa;
                     // border-bottom: 1px solid #5f6368;
                     padding-bottom: 50px;
+                }
+                @media screen and(max-width: 330px) {
+                    padding: 0px 0px 50px 0px;
                 }
                 img {
                     width: 150px;
@@ -169,10 +178,3 @@
             }
         }
     }
-    /*
-    border-radius: 16px;
-    background: #f8f9fa;
-    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-    height: 100%;
-    padding: 40px;
-    width: 88%;*/

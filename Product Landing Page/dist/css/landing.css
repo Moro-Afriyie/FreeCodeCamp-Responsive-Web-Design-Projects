@@ -145,7 +145,13 @@ body {
           box-shadow: 0 2px 1px -1px black, 0 1px 1px 0 black, 0 1px 3px 0 black;
   border-radius: 20px;
   background-color: #ffffff;
-  padding: 60px 30px;
+  padding: 60px 60px;
+}
+
+@media screen and (max-width: 850px) {
+  #features {
+    padding: 60px 30px;
+  }
 }
 
 #features h1 {
@@ -163,7 +169,7 @@ body {
   gap: 30px;
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 800px) {
   #features .features-cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -173,6 +179,12 @@ body {
   }
   #features .features-cards .card-assurance {
     border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #features .features-cards {
+    padding: 0px;
   }
 }
 
@@ -194,7 +206,7 @@ body {
           flex: 1;
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 800px) {
   #features .features-cards .card {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -202,6 +214,12 @@ body {
     background-color: #ffffff;
     border-bottom: 2px solid #f8f9fa;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #features .features-cards .card {
+    padding: 0px 0px 50px 0px;
   }
 }
 
@@ -214,12 +232,4 @@ body {
   margin: 25px 0px;
   text-align: center;
 }
-
-/*
-    border-radius: 16px;
-    background: #f8f9fa;
-    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-    height: 100%;
-    padding: 40px;
-    width: 88%;*/
 /*# sourceMappingURL=landing.css.map */
