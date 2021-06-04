@@ -138,4 +138,21 @@ body {
   padding: 10px 5px;
   margin-bottom: 1rem;
 }
+
+#features {
+  border: 1px solid red;
+  margin: 30px;
+  -webkit-box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4002;
+          box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4002;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 80px 90px;
+}
+
+#features h1 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+  text-align: center;
+}
 /*# sourceMappingURL=landing.css.map */
