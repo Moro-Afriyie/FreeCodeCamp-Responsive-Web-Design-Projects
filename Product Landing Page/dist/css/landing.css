@@ -249,4 +249,100 @@ body {
     margin: 30px;
   }
 }
+
+#pricing {
+  margin: 30px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 60px 60px;
+}
+
+@media screen and (max-width: 850px) {
+  #pricing {
+    padding: 60px 30px;
+  }
+}
+
+#pricing h1 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#pricing .features-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  #pricing .features-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 40px 10px 40px;
+  }
+  #pricing .features-cards .card-assurance {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #pricing .features-cards {
+    padding: 0px;
+  }
+}
+
+#pricing .features-cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 16px;
+  background: #f8f9fa;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.73);
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+  #pricing .features-cards .card {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #f8f9fa;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #pricing .features-cards .card {
+    padding: 0px 0px 50px 0px;
+  }
+}
+
+#pricing .features-cards .card img {
+  width: 150px;
+  margin: auto;
+}
+
+#pricing .features-cards .card .card-heading {
+  margin: 25px 0px;
+  text-align: center;
+}
 /*# sourceMappingURL=landing.css.map */
