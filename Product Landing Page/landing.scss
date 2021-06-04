@@ -67,9 +67,11 @@
         background-size: contain;
         background-position: center;
         width: 100%;
-        h2 {
+        h1 {
             margin-bottom: 20px;
             word-wrap: break-word;
+            color: black;
+            text-transform: capitalize;
         }
         #form {
             align-items: center;

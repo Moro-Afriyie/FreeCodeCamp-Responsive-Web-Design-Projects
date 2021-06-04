@@ -84,9 +84,11 @@ body {
   width: 100%;
 }
 
-#hero h2 {
+#hero h1 {
   margin-bottom: 20px;
   word-wrap: break-word;
+  color: black;
+  text-transform: capitalize;
 }
 
 #hero #form {
