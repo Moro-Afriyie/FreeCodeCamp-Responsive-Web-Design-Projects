@@ -140,13 +140,12 @@ body {
 }
 
 #features {
-  border: 1px solid red;
   margin: 30px;
-  -webkit-box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4002;
-          box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4002;
+  -webkit-box-shadow: 0 2px 1px -1px black, 0 1px 1px 0 black, 0 1px 3px 0 black;
+          box-shadow: 0 2px 1px -1px black, 0 1px 1px 0 black, 0 1px 3px 0 black;
   border-radius: 20px;
   background-color: #ffffff;
-  padding: 80px 90px;
+  padding: 60px 90px;
 }
 
 #features h1 {
@@ -155,4 +154,12 @@ body {
   font-weight: 500;
   text-align: center;
 }
+
+/*
+    border-radius: 16px;
+    background: #f8f9fa;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    height: 100%;
+    padding: 40px;
+    width: 88%;*/
 /*# sourceMappingURL=landing.css.map */
