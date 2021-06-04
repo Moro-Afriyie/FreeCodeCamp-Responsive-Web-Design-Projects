@@ -12,6 +12,7 @@ body {
 .landing {
   background-position: -185rem -217rem;
   background-repeat: no-repeat;
+  background-color: #eee;
 }
 
 .landing .background-image {
