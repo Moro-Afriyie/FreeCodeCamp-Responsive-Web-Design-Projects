@@ -122,4 +122,10 @@ body {
   position: relative;
   top: 1px;
 }
+
+#hero #form input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
 /*# sourceMappingURL=landing.css.map */
