@@ -135,12 +135,21 @@
                 background: #f8f9fa;
                 box-shadow: 0 1px 2px 0 rgb(60, 64, 67 / 30%), 0 1px 3px 1px rgb(60, 64, 67 / 15%);
                 height: 100%;
-                padding: 25px;
+                padding: 20px;
                 flex: 1;
                 // width: 88%;
                 img {
                     width: 150px;
                     margin: auto;
+                }
+                .card-heading {
+                    margin: 25px 0px;
+                    text-align: center;
+                }
+            }
+            .card-premium {
+                .card-text {
+                    line-height: 2.1rem;
                 }
             }
         }

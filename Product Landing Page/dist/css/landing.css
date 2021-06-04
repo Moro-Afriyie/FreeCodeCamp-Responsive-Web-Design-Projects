@@ -176,7 +176,7 @@ body {
   -webkit-box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4004;
           box-shadow: 0 1px 2px 0 #3c4002, 0 1px 3px 1px #3c4004;
   height: 100%;
-  padding: 25px;
+  padding: 20px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -185,6 +185,15 @@ body {
 #features .features-cards .card img {
   width: 150px;
   margin: auto;
+}
+
+#features .features-cards .card .card-heading {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+#features .features-cards .card-premium .card-text {
+  line-height: 2.1rem;
 }
 
 /*
