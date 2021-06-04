@@ -9,6 +9,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.landing {
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
