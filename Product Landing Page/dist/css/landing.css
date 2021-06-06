@@ -335,7 +335,8 @@ body {
   margin: auto;
 }
 
-#pricing .features-cards .card .card-heading {
+#pricing .features-cards .card .card-heading,
+#pricing .features-cards .card .card-price {
   margin: 25px 0px;
   text-align: center;
 }
