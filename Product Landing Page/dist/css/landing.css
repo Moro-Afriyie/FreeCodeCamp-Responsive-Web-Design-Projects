@@ -201,7 +201,7 @@ body {
   gap: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 932px) {
   #features .features-cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -239,7 +239,7 @@ body {
           flex: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 932px) {
   #features .features-cards .card {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -312,7 +312,7 @@ body {
   gap: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 932px) {
   #pricing .features-cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -350,7 +350,7 @@ body {
           flex: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 932px) {
   #pricing .features-cards .card {
     -webkit-box-shadow: none;
             box-shadow: none;
