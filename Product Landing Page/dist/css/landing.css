@@ -343,12 +343,13 @@ body {
 }
 
 #pricing .features-cards .card .card-price {
-  margin: 25px 0px;
+  margin-top: 15px;
   text-align: center;
 }
 
 #pricing .features-cards .card ul {
   margin: 15px 0;
+  text-align: center;
 }
 
 #pricing .features-cards .card ul li {
