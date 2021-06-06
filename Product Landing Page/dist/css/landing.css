@@ -347,6 +347,15 @@ body {
   text-align: center;
 }
 
+#pricing .features-cards .card ul {
+  margin: 15px 0;
+}
+
+#pricing .features-cards .card ul li {
+  padding: 5px 0;
+  list-style: none;
+}
+
 #pricing .features-cards .card a {
   width: 50%;
   margin: auto;
