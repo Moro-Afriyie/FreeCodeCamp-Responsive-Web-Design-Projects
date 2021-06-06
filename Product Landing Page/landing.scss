@@ -230,6 +230,8 @@
                     margin: 10px 0px;
                     text-align: center;
                     text-transform: uppercase;
+                    border-bottom: 2px solid #a8a9aa;
+                    line-height: 3rem;
                 }
                 .card-price {
                     margin-top: 15px;
@@ -243,7 +245,7 @@
                         list-style: none;
                     }
                 }
-                a {
+                button {
                     width: 50%;
                     margin: auto;
                 }

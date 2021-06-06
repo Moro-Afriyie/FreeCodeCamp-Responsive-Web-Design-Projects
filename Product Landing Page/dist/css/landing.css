@@ -335,6 +335,8 @@ body {
   margin: 10px 0px;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 2px solid #a8a9aa;
+  line-height: 3rem;
 }
 
 #pricing .features-cards .card .card-price {
@@ -352,7 +354,7 @@ body {
   list-style: none;
 }
 
-#pricing .features-cards .card a {
+#pricing .features-cards .card button {
   width: 50%;
   margin: auto;
 }
