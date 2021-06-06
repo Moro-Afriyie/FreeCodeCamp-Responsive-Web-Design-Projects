@@ -335,10 +335,21 @@ body {
   margin: auto;
 }
 
-#pricing .features-cards .card .card-heading,
+#pricing .features-cards .card .card-heading {
+  font-size: 20px;
+  margin: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #pricing .features-cards .card .card-price {
   margin: 25px 0px;
   text-align: center;
+}
+
+#pricing .features-cards .card a {
+  width: 50%;
+  margin: auto;
 }
 
 #pricing .features-cards .card .myButton {
