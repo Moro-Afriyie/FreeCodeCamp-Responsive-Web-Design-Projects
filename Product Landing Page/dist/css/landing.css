@@ -330,11 +330,6 @@ body {
   }
 }
 
-#pricing .features-cards .card img {
-  width: 150px;
-  margin: auto;
-}
-
 #pricing .features-cards .card .card-heading {
   font-size: 20px;
   margin: 10px 0px;
