@@ -47,4 +47,8 @@ section article {
 section article p {
   margin: 15px;
 }
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
 /*# sourceMappingURL=style.css.map */
