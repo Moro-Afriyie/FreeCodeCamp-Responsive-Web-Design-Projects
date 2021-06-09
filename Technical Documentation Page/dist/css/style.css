@@ -38,4 +38,10 @@ body {
   margin: 10px;
   font-size: 1.8em;
 }
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
 /*# sourceMappingURL=style.css.map */
