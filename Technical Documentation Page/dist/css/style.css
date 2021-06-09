@@ -32,4 +32,10 @@ body {
   border: 1px solid blue;
   padding: 1rem 2.2rem 2.2rem 2.2rem;
 }
+
+.container #main-doc header {
+  color: black;
+  margin: 10px;
+  font-size: 1.8em;
+}
 /*# sourceMappingURL=style.css.map */
