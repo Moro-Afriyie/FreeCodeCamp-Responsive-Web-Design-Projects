@@ -51,4 +51,8 @@ section article p {
 section ul {
   margin-left: 6rem;
 }
+
+section ul li {
+  margin: 15px 0px 0px 20px;
+}
 /*# sourceMappingURL=style.css.map */
