@@ -20,8 +20,10 @@ body {
         text-decoration: none;
         color: $textColor;
     }
-    #nav-bar {
+    #navbar {
         border: 1px solid red;
+        min-width: 290px;
+        width: 300px;
     }
     #main-doc {
         border: 1px solid blue;

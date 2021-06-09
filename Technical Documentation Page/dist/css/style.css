@@ -22,8 +22,10 @@ body {
   color: #4d4e53;
 }
 
-.container #nav-bar {
+.container #navbar {
   border: 1px solid red;
+  min-width: 290px;
+  width: 300px;
 }
 
 .container #main-doc {
