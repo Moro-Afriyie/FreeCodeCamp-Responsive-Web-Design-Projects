@@ -11,7 +11,13 @@ body {
   background-color: #ffffff;
 }
 
-a {
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container a {
   text-decoration: none;
   color: #4d4e53;
 }
