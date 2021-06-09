@@ -25,4 +25,8 @@ body {
 .container #nav-bar {
   border: 1px solid red;
 }
+
+.container #main-doc {
+  border: 1px solid blue;
+}
 /*# sourceMappingURL=style.css.map */
