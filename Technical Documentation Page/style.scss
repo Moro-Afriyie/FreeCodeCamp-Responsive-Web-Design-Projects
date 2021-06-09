@@ -4,7 +4,12 @@
     font-family: "poppins";
 }
 
+$textColor: #4d4e53;
+$backgroundColor: #ffffff;
 html,
 body {
     scroll-behavior: smooth;
+    // min-width: 290px;
+    color: $textColor;
+    background-color: $backgroundColor;
 }
