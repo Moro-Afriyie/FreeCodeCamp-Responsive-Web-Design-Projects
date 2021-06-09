@@ -21,4 +21,8 @@ body {
   text-decoration: none;
   color: #4d4e53;
 }
+
+.container #nav-bar {
+  border: 1px solid red;
+}
 /*# sourceMappingURL=style.css.map */
