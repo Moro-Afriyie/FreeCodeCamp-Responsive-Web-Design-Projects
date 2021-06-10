@@ -88,6 +88,7 @@ body {
   .container #main-doc {
     margin-top: 4rem;
     height: auto;
+    padding: 1rem;
   }
 }
 
