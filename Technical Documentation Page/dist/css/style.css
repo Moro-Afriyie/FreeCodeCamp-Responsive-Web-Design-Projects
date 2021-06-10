@@ -59,7 +59,9 @@ section ul li {
 section #What_you_should_already_know,
 section #JavaScript_and_Java,
 section #Hello_world,
-section #Variables {
+section #Variables,
+section #Declaring_variables,
+section #Variable_scope {
   margin: 40px 10px 10px 10px;
 }
 
