@@ -17,6 +17,15 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 820px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .container a {
   text-decoration: none;
   color: #4d4e53;
