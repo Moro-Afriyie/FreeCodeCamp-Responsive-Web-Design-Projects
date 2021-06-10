@@ -44,6 +44,13 @@ body {
             list-style: none;
             position: relative;
             width: 100%;
+            a {
+                display: block;
+                padding: 10px 30px;
+                color: #4d4e53;
+                text-decoration: none;
+                cursor: pointer;
+            }
         }
     }
     #main-doc {

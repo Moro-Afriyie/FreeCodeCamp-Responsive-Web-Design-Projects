@@ -52,6 +52,14 @@ body {
   width: 100%;
 }
 
+.container #navbar li a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .container #main-doc {
   padding: 1rem 2.2rem 2.2rem 2.2rem;
   height: 92vh;
