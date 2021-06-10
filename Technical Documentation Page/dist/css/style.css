@@ -33,9 +33,15 @@ body {
   overflow: auto;
 }
 
-.container #main-doc header {
+.container #main-doc #Introduction header {
   color: black;
   margin: 10px;
+  font-size: 1.8em;
+}
+
+.container #main-doc .main-section header {
+  color: black;
+  margin: 40px 10px 10px 10px;
   font-size: 1.8em;
 }
 

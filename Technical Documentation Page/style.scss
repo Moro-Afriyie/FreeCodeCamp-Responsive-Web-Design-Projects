@@ -30,11 +30,21 @@ body {
         padding: 1rem 2.2rem 2.2rem 2.2rem;
         height: 92vh;
         overflow: auto;
-        header {
-            color: black;
-            margin: 10px;
-            // text-align: center;
-            font-size: 1.8em;
+        #Introduction {
+            header {
+                color: black;
+                margin: 10px;
+                // text-align: center;
+                font-size: 1.8em;
+            }
+        }
+        .main-section {
+            header {
+                color: black;
+                margin: 40px 10px 10px 10px;
+                // text-align: center;
+                font-size: 1.8em;
+            }
         }
     }
 }
