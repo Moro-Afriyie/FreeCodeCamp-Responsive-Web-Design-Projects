@@ -31,6 +31,13 @@ body {
             text-align: center;
             font-size: 1.8em;
         }
+        ul {
+            border: 1px solid;
+            height: 90%;
+            padding: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
     }
     #main-doc {
         padding: 1rem 2.2rem 2.2rem 2.2rem;
