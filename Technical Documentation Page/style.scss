@@ -19,7 +19,7 @@ body {
     @media screen and (max-width: 830px) {
         flex-direction: column;
     }
-    a {
+    .nav-link {
         text-decoration: none;
         color: $textColor;
     }
