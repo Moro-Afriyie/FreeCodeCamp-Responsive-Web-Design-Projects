@@ -31,6 +31,8 @@ body {
 .container #main-doc {
   border: 1px solid blue;
   padding: 1rem 2.2rem 2.2rem 2.2rem;
+  height: 92vh;
+  overflow: auto;
 }
 
 .container #main-doc header {
