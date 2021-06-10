@@ -41,7 +41,8 @@ body {
 
 @media screen and (max-width: 830px) {
   .container #navbar {
-    width: 100%;
+    width: 98%;
+    height: 270px;
   }
 }
 
