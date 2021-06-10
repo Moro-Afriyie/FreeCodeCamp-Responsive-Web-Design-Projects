@@ -27,6 +27,13 @@ body {
   width: 300px;
 }
 
+.container #navbar header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
 .container #main-doc {
   padding: 1rem 2.2rem 2.2rem 2.2rem;
   height: 92vh;
