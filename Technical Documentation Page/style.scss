@@ -16,7 +16,7 @@ body {
 
 .container {
     display: flex;
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 830px) {
         flex-direction: column;
     }
     a {
@@ -29,6 +29,9 @@ body {
         height: 100vh;
         border-right: solid;
         border-color: rgba(0, 22, 22, 0.4);
+        @media screen and (max-width: 830px) {
+            width: 100%;
+        }
         header {
             color: black;
             margin: 10px;
