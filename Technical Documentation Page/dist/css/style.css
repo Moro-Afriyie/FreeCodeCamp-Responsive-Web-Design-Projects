@@ -62,17 +62,6 @@ section ul li {
   margin: 15px 0px 0px 20px;
 }
 
-#What_you_should_already_know header,
-#JavaScript_and_Java header,
-#Hello_world header,
-#Variables header,
-#Declaring_variables header,
-#Variable_scope header,
-#Global_variables header,
-#Constants header {
-  margin: 40px 10px 10px 10px;
-}
-
 code {
   display: block;
   text-align: left;
