@@ -59,8 +59,11 @@ section {
     #Variables,
     #Declaring_variables,
     #Variable_scope,
-    #Global_variables {
-        margin: 40px 10px 10px 10px;
+    #Global_variables,
+    #Constants {
+        header {
+            margin: 40px 10px 10px 10px;
+        }
     }
 }
 

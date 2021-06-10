@@ -56,13 +56,14 @@ section ul li {
   margin: 15px 0px 0px 20px;
 }
 
-section #What_you_should_already_know,
-section #JavaScript_and_Java,
-section #Hello_world,
-section #Variables,
-section #Declaring_variables,
-section #Variable_scope,
-section #Global_variables {
+section #What_you_should_already_know header,
+section #JavaScript_and_Java header,
+section #Hello_world header,
+section #Variables header,
+section #Declaring_variables header,
+section #Variable_scope header,
+section #Global_variables header,
+section #Constants header {
   margin: 40px 10px 10px 10px;
 }
 
