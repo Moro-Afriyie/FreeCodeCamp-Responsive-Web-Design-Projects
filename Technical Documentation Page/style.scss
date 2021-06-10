@@ -23,6 +23,8 @@ body {
     #navbar {
         min-width: 290px;
         width: 300px;
+        border-right: solid;
+        border-color: rgba(0, 22, 22, 0.4);
         header {
             color: black;
             margin: 10px;
@@ -34,6 +36,7 @@ body {
         padding: 1rem 2.2rem 2.2rem 2.2rem;
         height: 92vh;
         overflow: auto;
+        scroll-behavior: smooth;
         #Introduction {
             header {
                 color: black;
