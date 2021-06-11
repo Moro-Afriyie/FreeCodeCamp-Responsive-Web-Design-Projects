@@ -57,10 +57,12 @@ body {
     height: 90vh;
     h1 {
         font-size: 5rem;
+        text-shadow: 2px 2px $pink;
     }
     p {
         font-size: 2rem;
         font-weight: 200;
         font-style: italic;
+        color: $pink;
     }
 }
