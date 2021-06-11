@@ -96,7 +96,7 @@ body {
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -122,7 +122,7 @@ body {
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 1rem 0.5rem;
   color: white;
 }
