@@ -8,6 +8,6 @@
 html,
 body {
   scroll-behavior: smooth;
-  background: linear-gradient(66deg, #9926f0 40%, #c922e4 78%);
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
 }
 /*# sourceMappingURL=style.css.map */
