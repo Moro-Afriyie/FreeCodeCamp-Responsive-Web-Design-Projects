@@ -82,10 +82,21 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
+    a {
+        box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+        ;
+        img {
+            height: calc(100% - 6.8rem);
+            width: 100%;
+            object-fit: cover;
+        }
+    }
 }
