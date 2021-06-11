@@ -1,9 +1,9 @@
 /**VARIABLES***/
 
-$violetBackgroundColor: #c922e4;
+$violetBackgroundColor: linear-gradient(66deg, rgba(153, 38, 240, 1) 40%, rgba(201, 34, 228, 1) 78%);
 $orange: #ff7b4a;
 $pink: #ff435b;
-$backgroundColor: #e9f1ff;
+$backgroundColor: linear-gradient(66deg, rgba(255, 123, 74, 1) 44%, rgba(255, 67, 91, 1) 84%);
 $cardColor: #d5def0;
 $boxShadow: 0 2px 1px -1px rgb(0, 0, 0/ 20%),
 0 1px 1px 0 rgb(0, 0, 0 / 14%),
@@ -18,5 +18,10 @@ $navBoxShadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
 html,
 body {
     scroll-behavior: smooth;
-    background-color: linear-gradient(66deg, rgba(153, 38, 240, 1) 43%, rgba(201, 34, 228, 1) 61%);
+    background: $violetBackgroundColor;
 }
+
+// .container {
+//     background-color: $violetBackgroundColor;
+//     height: 100%;
+// }
