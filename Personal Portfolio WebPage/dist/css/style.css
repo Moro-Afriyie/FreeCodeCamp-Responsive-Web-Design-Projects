@@ -104,6 +104,7 @@ body {
 }
 
 .projects-grid a {
+  text-decoration: none;
   box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
@@ -121,7 +122,8 @@ body {
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1rem 0.5rem;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
