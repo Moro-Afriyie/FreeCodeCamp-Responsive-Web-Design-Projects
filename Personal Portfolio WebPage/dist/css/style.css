@@ -90,4 +90,16 @@ body {
   border-bottom: 0.2rem solid;
   color: white;
 }
+
+.projects-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
 /*# sourceMappingURL=style.css.map */
