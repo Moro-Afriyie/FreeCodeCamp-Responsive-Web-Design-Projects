@@ -20,3 +20,17 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+    background: $backgroundColor;
+    box-shadow: $boxShadow;
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
