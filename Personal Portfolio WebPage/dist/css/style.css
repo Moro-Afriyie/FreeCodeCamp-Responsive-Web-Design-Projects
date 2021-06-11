@@ -122,8 +122,18 @@ body {
 }
 
 .project-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 1rem 0.5rem;
   color: white;
+}
+
+.project-title:hover .code {
+  color: #ff7b4a;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.code {
+  color: #303841;
 }
 /*# sourceMappingURL=style.css.map */
