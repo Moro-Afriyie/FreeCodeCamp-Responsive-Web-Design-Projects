@@ -8,6 +8,6 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-color: #9926f0;
+  background-color: linear-gradient(66deg, #9926f0 43%, #c922e4 61%);
 }
 /*# sourceMappingURL=style.css.map */

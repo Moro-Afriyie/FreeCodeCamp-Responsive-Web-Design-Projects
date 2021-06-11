@@ -1,6 +1,6 @@
 /**VARIABLES***/
 
-$violetBackgroundColor: #9926f0;
+$violetBackgroundColor: #c922e4;
 $orange: #ff7b4a;
 $pink: #ff435b;
 $backgroundColor: #e9f1ff;
@@ -18,5 +18,5 @@ $navBoxShadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
 html,
 body {
     scroll-behavior: smooth;
-    background-color: $violetBackgroundColor;
+    background-color: linear-gradient(66deg, rgba(153, 38, 240, 1) 43%, rgba(201, 34, 228, 1) 61%);
 }
