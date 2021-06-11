@@ -138,19 +138,18 @@ body {
 }
 
 .myButton {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
-  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-  background-color: #ffec64;
+  background: linear-gradient(66deg, #ff7b4a 44%, #ff435b 84%);
+  background-color: #ff7b4a;
   border-radius: 2px;
   display: inline-block;
   cursor: pointer;
-  color: #333333;
+  color: #ffffff;
   font-family: inherit;
   font-size: 1.3rem;
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ffee66;
+  text-shadow: 0px 1px 0px #ff7b4a;
 }
 
 .myButton i {
