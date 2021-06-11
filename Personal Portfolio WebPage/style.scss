@@ -71,9 +71,11 @@ body {
     background-color: #2fc7f5;
     text-align: center;
     padding: 6rem 2rem;
-    header {
+    h2 {
+        font-size: 2.5rem;
         max-width: 640px;
         margin: 0 auto 6rem auto;
-        border-bottom: 0.2rem solid
+        border-bottom: 0.2rem solid;
+        color: white;
     }
 }
