@@ -64,7 +64,7 @@ body {
     h1 {
         font-size: 5rem;
         text-shadow: 2px 2px $pink;
-        /******fading animation********/
+        /******typewriter animation********/
         position: relative;
         font-family: "Source Code Pro", monospace;
         position: relative;
@@ -75,6 +75,16 @@ body {
         @media screen and (max-width: 400px) {
             font-size: 3rem;
         }
+    }
+    /*****typewriter*******/
+    h1::before,
+    h1::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
     p {
         font-size: 2rem;
