@@ -5,9 +5,6 @@ $orange: #ff7b4a;
 $pink: #ff435b;
 $backgroundColor: linear-gradient(66deg, rgba(255, 123, 74, 1) 44%, rgba(255, 67, 91, 1) 84%);
 $contentBackgroundColor: #e9f1ff;
-$boxShadow: 0 2px 1px -1px rgb(0, 0, 0/ 20%),
-0 1px 1px 0 rgb(0, 0, 0 / 14%),
-0 1px 3px 0 rgb(0, 0, 0 / 12%);
 $navBoxShadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
 * {
     margin: 0;
@@ -32,6 +29,7 @@ body {
     box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    z-index: 10;
     ul {
         list-style: none;
         display: flex;
@@ -53,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     h1 {
         font-size: 5rem;
         text-shadow: 2px 2px $pink;
@@ -70,6 +68,7 @@ body {
     background-color: #2fc7f5;
     text-align: center;
     padding: 6rem 2rem;
+    @media screen and (max-width: 360px) {}
     h2 {
         font-size: 2.5rem;
         max-width: 640px;
@@ -136,5 +135,44 @@ body {
     i {
         margin-left: 10px;
         transform: translateX(0);
+    }
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    h2 {
+        font-size: 4rem;
+    }
+    p {
+        font-style: italic;
+    }
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    .btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 2px;
+    }
+    .contact-details {
+        font-size: 1.6rem;
+        transition: transform 0.3s ease-out;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            transform: translateY(8px);
+        }
     }
 }

@@ -28,6 +28,7 @@ body {
   box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+  z-index: 10;
 }
 
 #navbar ul {
@@ -62,7 +63,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 #welcome-section h1 {
@@ -156,5 +157,66 @@ body {
   margin-left: 10px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+}
+
+#contact h2 {
+  font-size: 4rem;
+}
+
+#contact p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact-links .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+
+.contact-links .contact-details {
+  font-size: 1.6rem;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-links .contact-details:hover {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
 }
 /*# sourceMappingURL=style.css.map */
