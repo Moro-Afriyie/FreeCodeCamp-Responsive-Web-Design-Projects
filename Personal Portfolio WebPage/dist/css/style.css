@@ -96,6 +96,12 @@ body {
   color: #ff435b;
 }
 
+@media screen and (max-width: 400px) {
+  #welcome-section p {
+    font-size: 1rem;
+  }
+}
+
 #projects {
   background-color: #2fc7f5;
   text-align: center;
