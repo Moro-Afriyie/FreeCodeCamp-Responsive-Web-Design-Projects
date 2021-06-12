@@ -89,6 +89,9 @@ body {
         margin: 0 auto 6rem auto;
         border-bottom: 0.2rem solid;
         color: white;
+        @media screen and (max-width: 400px) {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -118,9 +121,12 @@ body {
 }
 
 .project-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem 0.5rem;
     color: white;
+    @media screen and (max-width: 400px) {
+        font-size: 1rem;
+    }
     &:hover {
         .code {
             color: #ff7b4a;
@@ -131,6 +137,9 @@ body {
 
 .code {
     color: #303841;
+    @media screen and (max-width: 770px) {
+        color: #ff7b4a;
+    }
 }
 
 .myButton {
