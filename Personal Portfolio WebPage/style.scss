@@ -58,11 +58,31 @@ body {
     h1 {
         font-size: 5rem;
         text-shadow: 2px 2px $pink;
+        border-right: 4px solid black;
         @media screen and (max-width: 720px) {
             text-align: center;
         }
         @media screen and (max-width: 400px) {
             font-size: 3rem;
+        }
+    }
+    .animation {
+        animation: typewriter 4s steps(16) 1s 1 normal both, blinkCursor 500ms steps(16) infinite normal;
+    }
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    @keyframes blinkCursor {
+        from {
+            border-right-color: black;
+        }
+        to {
+            border-right-color: transparent;
         }
     }
     p {
