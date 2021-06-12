@@ -237,4 +237,8 @@ footer {
   padding: 2rem;
   border-top: 4px solid #ff7b4a;
 }
+
+footer p {
+  margin: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
