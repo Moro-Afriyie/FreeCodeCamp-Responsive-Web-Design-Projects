@@ -225,4 +225,16 @@ body {
   -webkit-transform: translateY(8px);
           transform: translateY(8px);
 }
+
+footer {
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2rem;
+  border-top: 4px solid #ff7b4a;
+}
 /*# sourceMappingURL=style.css.map */

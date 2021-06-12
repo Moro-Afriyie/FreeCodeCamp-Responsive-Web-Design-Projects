@@ -178,3 +178,11 @@ body {
         }
     }
 }
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid $orange;
+}
