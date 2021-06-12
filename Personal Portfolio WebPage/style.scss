@@ -118,6 +118,7 @@ body {
     font-weight: 400;
     font-style: italic;
     opacity: 0;
+    margin: 2rem 0px;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease 8s forwards;
     @media screen and (max-width: 400px) {

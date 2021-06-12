@@ -157,6 +157,7 @@ body {
   font-weight: 400;
   font-style: italic;
   opacity: 0;
+  margin: 2rem 0px;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
   -webkit-animation: fadeInUp 2s ease 8s forwards;
