@@ -171,6 +171,9 @@ body {
     height: 70vh;
     h2 {
         font-size: 4rem;
+        @media screen and (max-width: 400px) {
+            font-size: 3rem;
+        }
     }
     p {
         font-style: italic;
@@ -206,6 +209,10 @@ footer {
     justify-content: space-evenly;
     padding: 2rem;
     border-top: 4px solid $orange;
+    @media screen and (max-width: 400px) {
+        flex-direction: column;
+        padding: 2rem 0.125rem;
+    }
     p {
         margin: 2rem;
     }

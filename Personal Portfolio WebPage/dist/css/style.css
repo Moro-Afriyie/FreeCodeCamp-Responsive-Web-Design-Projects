@@ -230,6 +230,12 @@ body {
   font-size: 4rem;
 }
 
+@media screen and (max-width: 400px) {
+  #contact h2 {
+    font-size: 3rem;
+  }
+}
+
 #contact p {
   font-style: italic;
 }
@@ -278,6 +284,16 @@ footer {
           justify-content: space-evenly;
   padding: 2rem;
   border-top: 4px solid #ff7b4a;
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem 0.125rem;
+  }
 }
 
 footer p {
