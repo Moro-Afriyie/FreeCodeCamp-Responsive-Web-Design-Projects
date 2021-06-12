@@ -66,6 +66,12 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-width: 400px) {
+  #welcome-section {
+    margin-top: 1.5rem;
+  }
+}
+
 #welcome-section h1 {
   font-size: 5rem;
   text-shadow: 2px 2px #ff435b;
@@ -74,6 +80,12 @@ body {
 @media screen and (max-width: 720px) {
   #welcome-section h1 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #welcome-section h1 {
+    font-size: 3rem;
   }
 }
 
