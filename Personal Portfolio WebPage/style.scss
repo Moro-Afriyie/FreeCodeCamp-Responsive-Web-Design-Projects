@@ -105,23 +105,33 @@ body {
             background: transparent;
         }
     }
-    p {
-        font-size: 2rem;
-        font-weight: 200;
-        font-style: italic;
-        color: $pink;
-        opacity: 0;
-        transform: translateY(3rem);
-        animation: fadeInUp 1s ease calc($typewriterSpeed+2s) forwards;
-        @media screen and (max-width: 400px) {
-            font-size: 1rem;
-        }
-    }
-    @keyframes fadeInUp {
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    // p {
+    //     font-size: 2rem;
+    //     font-weight: 200;
+    //     font-style: italic;
+    //     color: $pink;
+    //     opacity: 0;
+    //     transform: translateY(3rem);
+    //     animation: fadeInUp 1s ease calc($typewriterSpeed+2s) forwards;
+    //     @media screen and (max-width: 400px) {
+    //         font-size: 1rem;
+    //     }
+    // }
+}
+
+.subtitle {
+    color: $pink;
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
