@@ -84,6 +84,12 @@ body {
   padding: 6rem 2rem;
 }
 
+@media screen and (max-width: 360px) {
+  #projects {
+    padding: 6rem 2px;
+  }
+}
+
 #projects h2 {
   font-size: 2.5rem;
   max-width: 640px;
