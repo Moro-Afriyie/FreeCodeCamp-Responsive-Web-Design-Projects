@@ -71,6 +71,12 @@ body {
   text-shadow: 2px 2px #ff435b;
 }
 
+@media screen and (max-width: 720px) {
+  #welcome-section h1 {
+    text-align: center;
+  }
+}
+
 #welcome-section p {
   font-size: 2rem;
   font-weight: 200;

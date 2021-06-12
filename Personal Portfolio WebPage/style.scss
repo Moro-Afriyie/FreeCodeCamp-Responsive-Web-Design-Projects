@@ -55,6 +55,9 @@ body {
     h1 {
         font-size: 5rem;
         text-shadow: 2px 2px $pink;
+        @media screen and (max-width: 720px) {
+            text-align: center;
+        }
     }
     p {
         font-size: 2rem;
