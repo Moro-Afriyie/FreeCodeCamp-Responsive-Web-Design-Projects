@@ -145,6 +145,24 @@ body {
   }
 }
 
+#welcome-section p {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #ff435b;
+  opacity: 0;
+  -webkit-transform: translateY(3rem);
+          transform: translateY(3rem);
+  -webkit-animation: fadeInUp 1s ease calc($typewriterSpeed+2s) forwards;
+          animation: fadeInUp 1s ease calc($typewriterSpeed+2s) forwards;
+}
+
+@media screen and (max-width: 400px) {
+  #welcome-section p {
+    font-size: 1rem;
+  }
+}
+
 @-webkit-keyframes fadeInUp {
   to {
     opacity: 1;
@@ -158,19 +176,6 @@ body {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-  }
-}
-
-#welcome-section p {
-  font-size: 2rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #ff435b;
-}
-
-@media screen and (max-width: 400px) {
-  #welcome-section p {
-    font-size: 1rem;
   }
 }
 
