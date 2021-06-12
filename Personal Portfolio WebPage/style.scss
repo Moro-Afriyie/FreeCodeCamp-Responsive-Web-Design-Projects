@@ -123,9 +123,13 @@ body {
     color: $pink;
     font-size: 2rem;
     font-weight: 400;
+    font-style: italic;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+    animation: fadeInUp 2s ease 8s forwards;
+    @media screen and (max-width: 400px) {
+        font-size: 1rem;
+    }
 }
 
 @keyframes fadeInUp {

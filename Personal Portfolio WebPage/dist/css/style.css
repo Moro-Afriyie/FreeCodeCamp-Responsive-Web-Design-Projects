@@ -149,11 +149,18 @@ body {
   color: #ff435b;
   font-size: 2rem;
   font-weight: 400;
+  font-style: italic;
   opacity: 0;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
-          animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+  -webkit-animation: fadeInUp 2s ease 8s forwards;
+          animation: fadeInUp 2s ease 8s forwards;
+}
+
+@media screen and (max-width: 400px) {
+  .subtitle {
+    font-size: 1rem;
+  }
 }
 
 @-webkit-keyframes fadeInUp {
