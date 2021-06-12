@@ -68,12 +68,13 @@ body {
         position: relative;
         font-family: "Source Code Pro", monospace;
         position: relative;
-        width: max-content;
-        @media screen and (max-width: 720px) {
+        // width: max-content;
+        @media screen and (max-width: 760px) {
             text-align: center;
+            font-size: 4rem;
         }
         @media screen and (max-width: 400px) {
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
     /*****typewriter*******/
