@@ -108,6 +108,59 @@ body {
   left: 0;
 }
 
+#welcome-section h1::before {
+  background: #e9f1ff;
+  -webkit-animation: typewriter 6s steps(24) 1s forwards;
+          animation: typewriter 6s steps(24) 1s forwards;
+}
+
+#welcome-section h1::after {
+  width: 0.1em;
+  background: black;
+  -webkit-animation: typewriter 6s steps(24) 1s forwards, blink 750ms steps(24) infinite;
+          animation: typewriter 6s steps(24) 1s forwards, blink 750ms steps(24) infinite;
+}
+
+@-webkit-keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 #welcome-section p {
   font-size: 2rem;
   font-weight: 200;
