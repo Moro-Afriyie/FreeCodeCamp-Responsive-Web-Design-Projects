@@ -75,6 +75,13 @@ body {
 #welcome-section h1 {
   font-size: 5rem;
   text-shadow: 2px 2px #ff435b;
+  /******fading animation********/
+  position: relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 @media screen and (max-width: 720px) {

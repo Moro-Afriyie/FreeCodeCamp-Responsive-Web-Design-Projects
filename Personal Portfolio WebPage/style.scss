@@ -58,6 +58,11 @@ body {
     h1 {
         font-size: 5rem;
         text-shadow: 2px 2px $pink;
+        /******fading animation********/
+        position: relative;
+        font-family: "Source Code Pro", monospace;
+        position: relative;
+        width: max-content;
         @media screen and (max-width: 720px) {
             text-align: center;
         }
