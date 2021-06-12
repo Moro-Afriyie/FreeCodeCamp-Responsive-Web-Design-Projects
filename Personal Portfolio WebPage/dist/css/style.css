@@ -90,7 +90,14 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 590px) {
+  #welcome-section h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
   #welcome-section h1 {
     font-size: 2rem;
   }
@@ -239,12 +246,6 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 400px) {
-  .project-title {
-    font-size: 1rem;
-  }
-}
-
 .project-title:hover .code {
   color: #ff7b4a;
   -webkit-transition: color 0.3s ease-out;
@@ -307,7 +308,7 @@ body {
 
 @media screen and (max-width: 400px) {
   #contact h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 

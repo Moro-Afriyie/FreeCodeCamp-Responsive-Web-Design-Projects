@@ -73,7 +73,11 @@ body {
             text-align: center;
             font-size: 4rem;
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 590px) {
+            text-align: center;
+            font-size: 3rem;
+        }
+        @media screen and (max-width: 430px) {
             font-size: 2rem;
         }
     }
@@ -106,18 +110,6 @@ body {
             background: transparent;
         }
     }
-    // p {
-    //     font-size: 2rem;
-    //     font-weight: 200;
-    //     font-style: italic;
-    //     color: $pink;
-    //     opacity: 0;
-    //     transform: translateY(3rem);
-    //     animation: fadeInUp 1s ease calc($typewriterSpeed+2s) forwards;
-    //     @media screen and (max-width: 400px) {
-    //         font-size: 1rem;
-    //     }
-    // }
 }
 
 .subtitle {
@@ -188,9 +180,6 @@ body {
     font-size: 1rem;
     padding: 1rem 0.5rem;
     color: white;
-    @media screen and (max-width: 400px) {
-        font-size: 1rem;
-    }
     &:hover {
         .code {
             color: #ff7b4a;
@@ -236,7 +225,7 @@ body {
     h2 {
         font-size: 4rem;
         @media screen and (max-width: 400px) {
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
     p {
