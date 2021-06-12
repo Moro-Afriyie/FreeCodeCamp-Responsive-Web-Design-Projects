@@ -75,7 +75,6 @@ body {
 #welcome-section h1 {
   font-size: 5rem;
   text-shadow: 2px 2px #ff435b;
-  border-right: 4px solid black;
 }
 
 @media screen and (max-width: 720px) {
@@ -87,47 +86,6 @@ body {
 @media screen and (max-width: 400px) {
   #welcome-section h1 {
     font-size: 3rem;
-  }
-}
-
-#welcome-section .animation {
-  -webkit-animation: typewriter 4s steps(16) 1s 1 normal both, blinkCursor 500ms steps(16) infinite normal;
-          animation: typewriter 4s steps(16) 1s 1 normal both, blinkCursor 500ms steps(16) infinite normal;
-}
-
-@-webkit-keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes blinkCursor {
-  from {
-    border-right-color: black;
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
-@keyframes blinkCursor {
-  from {
-    border-right-color: black;
-  }
-  to {
-    border-right-color: transparent;
   }
 }
 
