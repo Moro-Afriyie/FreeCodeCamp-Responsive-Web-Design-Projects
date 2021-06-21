@@ -6,5 +6,6 @@ This repository contains the projects in the responsive web design course on Fre
 * Survey Form : [https://codepen.io/moro-afriyie/pen/dyvJxpz](https://codepen.io/moro-afriyie/pen/dyvJxpz)
 * Product Landing Page  [https://codepen.io/moro-afriyie/pen/YzZLdVW](https://codepen.io/moro-afriyie/pen/YzZLdVW)
 * Technical Documentation Page [https://codepen.io/moro-afriyie/pen/eYvLRjg](https://codepen.io/moro-afriyie/pen/eYvLRjg)
+* Personal Portfolio Page [https://codepen.io/moro-afriyie/pen/oNZapmO](https://codepen.io/moro-afriyie/pen/oNZapmO)
 
 
